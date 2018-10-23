@@ -1,3 +1,23 @@
 page-home {
+    ion-content{
+    background-image: url('../assets/imgs/flashl.png');
+    background-repeat: no-repeat;
+    //background-size:100%;
+    background-position: center;
+    height: 100%;
+    background-color: darkcyan !important;
+    
+        button{
+            background-color:cadetblue !important;
+            color:black !important;
+            width:20%;
+            position: absolute;
+           transform: translateY(890%);
+           left: 30%;
+    }
+    }
 
+    ion-title{
+        background-color: cadetblue;
+    }
 }
